@@ -1,0 +1,485 @@
+nav {
+    width: 100%;
+    right: 0;
+    display: inline;
+    height: 40px;
+    overflow: hidden;
+    padding: 3px 0px;
+    z-index: 2;
+
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    font-family: "Futura";
+    font-size: 20px;
+}
+
+nav a {
+    display: white;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px 40px 20px;
+    transform: 0.3s;
+    background: none;
+
+}
+
+nav a:hover {
+    color: #3D5CDB;
+}
+
+
+nav ul {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}
+
+
+.main-visual {
+    width: 100%;
+    height: 500px;
+    background: #fff url(hero.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    opacity: 0.8;
+    padding-top: 60px;
+}
+
+.top-title {
+    font-size: 50px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #3D5CDB;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Futura";
+    padding: 50px;
+}
+
+.w50 {
+    margin: 60px;
+    width: 300px;
+    height: 300px;
+}
+
+.imgbox {
+    height: 100%;
+}
+
+.right-box {
+    float: right;
+    width: 350px;
+
+
+}
+
+img {
+    background-size: cover;
+
+
+}
+
+.name {
+    position: relative;
+}
+
+.name p {
+    position: absolute;
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Futura";
+    top: 0;
+    left: 0;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.name h1 {
+    position: absolute;
+    color: #FFBF00;
+    font-size: 100px;
+    font-family: "Futura";
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.name img {
+    width: 60%;
+    background: none;
+    position: absolute;
+    z-index: 33;
+    padding: 30px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.main-visual {
+    width: 100%;
+    height: 700px;
+    /*    background: #fff url(hero.jpg) 0 0 no-repeat;*/
+    background-size: cover;
+    margin-bottom: 32px;
+    opacity: 0.8;
+    opacity: 0.8;
+    padding-top: 60px;
+}
+
+.top-title {
+    font-size: 50px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #3D5CDB;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Futura";
+}
+
+.right-box {
+    float: right;
+    width: 400px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+.left-box {
+    float: left;
+    width: 400px;
+    line-height: 30px;
+
+
+
+}
+
+
+a.touroku1 {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 40px;
+    overflow: hidden;
+    border: 1px solid #3D5CDB;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: #3D5CDB;
+    margin-left: 25%;
+    margin-top: 60px;
+    font-weight: bold;
+    margin: 90px;
+}
+
+a.touroku1:hover {
+    background: #ffffff;
+    color: #3D5CDB;
+
+}
+
+a.touroku2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 40px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #FFBF00;
+    background-color: #FFBF00;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+a.touroku2:hover {
+    background: #ffffff;
+    color: #FFBF00;
+
+}
+
+.detail {
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    margin: 80px;
+    float: left;
+    padding: 20px;
+
+}
+
+.imgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.detail h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.detail p1 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #F16529;
+    background-color: #F16529;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+
+}
+
+.detail p1:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p2 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #29A9DF;
+    background-color: #29A9DF;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+}
+
+.detail p2:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p3 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #333333;
+    background-color: #333333;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+}
+
+.detail p3:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p4 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #FF5252;
+    background-color: #FF5252;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+}
+
+.detail p4:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p5 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #FED700;
+    background-color: #FED700;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+
+}
+
+.detail p5:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p6 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #FE7536;
+    background-color: #FE7536;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+
+}
+
+.detail p6:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.detail p7 {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #73CEDD;
+    background-color: #73CEDD;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5f;
+}
+
+.detail p7:hover {
+    color: #000000;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+
+}
+
+.go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+}
+
+
+
+
+
+
+
+
+
+
+.kirei {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.content {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+
+.course {
+    background-color: #BAD5F5;
+    width: 100%;
+    height: 1800px;
+    flex-wrap: wrap;
+}
+
+.detailmix {
+    margin-left: 8%;
+
+}
+
+.map {
+    text-align: center;
+}
+
+.footer {
+    font-size: 15px;
+    color: #3D5CDB;
+    text-align: center;
+    margin: 20px;
+}
+
+/*@media ((min-width:641px) and (max-width:800px)) {}*/
+
+/*
+.bg-slider {
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-slider__title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+*/
